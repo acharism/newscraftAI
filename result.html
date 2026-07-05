@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Hasil Berita</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+
+        <h1>📰 Hasil Berita</h1>
+
+        <p>Data berita yang diterima dari halaman utama</p>
+
+    </div>
+    <div id="pdfContent">
+
+    <div id="hasilBerita">
+
+        Belum ada data.
+
+    </div>
+</div>
+    <button id="copyBtn">
+    📋 Copy Berita
+</button>
+
+<button id="downloadBtn">
+    💾 Download Berita (.txt)
+</button>
+<button id="pdfBtn">
+    📄 Download PDF
+</button>
+
+    <button onclick="location.href='index.html'">
+
+        Kembali
+
+    </button>
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<script src="js/result.js"></script>
+
+</body>
+
+</html>
